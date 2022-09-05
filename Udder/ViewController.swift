@@ -13,12 +13,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-    override func delete(_ sender: Any?) {
-        <#code#>
-    }
-    override func viewWillDisappear(_ animated: Bool) {
-        boom
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        <#code#>
+    }
+    
+    override func viewDidLayoutSubviews() {
+        <#code#>
+    }
 }
